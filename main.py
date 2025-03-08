@@ -64,7 +64,7 @@ def generate_approved_message(cc, response, bin_info, time_taken):
 𝙄𝙨𝙨𝙪𝙚𝙧 ➼ {bin_info.get('bank', 'Unknown')}
 𝘽𝙞𝙣 ➼ {cc[:6]}
 𝙏𝙞𝙢𝙚 ➼ {time_taken}
-𝗕𝗼𝘁 𝗕𝘆: @im_satyam_chauhan
+𝗕𝗼𝘁 𝗕𝘆: @NITIN_510
 """
 
 # Handle /start command
@@ -75,7 +75,7 @@ def start(message):
         bot.reply_to(message, "𝗬𝗼𝘂 𝗔𝗿𝗲 𝗙𝘂𝗰𝗸𝗲𝗱 🖕")
         return
     if user_id not in load_approved_users():
-        bot.reply_to(message, "𝘠𝘰𝘶 𝘢𝘳𝘦 𝘯𝘰𝘵 𝘢𝘱𝘱𝘳𝘰𝘷𝘦𝘥 𝘵𝘰 𝘶𝘴𝘦 𝘵𝘩𝘪𝘴 𝘣𝘰𝘵. 𝘊𝘰𝘯𝘵𝘢𝘤𝘵 𝘵𝘩𝘦 𝘰𝘸𝘯𝘦𝘳- @myself_satyam")
+        bot.reply_to(message, "𝘠𝘰𝘶 𝘢𝘳𝘦 𝘯𝘰𝘵 𝘢𝘱𝘱𝘳𝘰𝘷𝘦𝘥 𝘵𝘰 𝘶𝘴𝘦 𝘵𝘩𝘪𝘴 𝘣𝘰𝘵. 𝘊𝘰𝘯𝘵𝘢𝘤𝘵 𝘵𝘩𝘦 𝘰𝘸𝘯𝘦𝘳- @NITIN_510")
         return
     bot.reply_to(message, "𝗦𝗲𝗻𝗱 𝗧𝗵𝗲 𝗙𝗶𝗹𝗲 𝗧𝗼 𝗖𝗵𝗲𝗰𝗸 ✔️")
 
