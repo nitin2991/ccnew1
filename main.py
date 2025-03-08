@@ -1,5 +1,5 @@
-#Dev = @im_satyam_chauhan
-#Channel = @satyamnetwork
+#Dev = @Nitin_510
+#Channel = @NITIN_510
 # Copy kro Bs Credit De dena Dost 
 
 import threading
@@ -9,7 +9,7 @@ from telebot import types
 from gatet import Tele  # Import the Tele function from gatet.py
 
 # Bot configuration
-TOKEN = "8149870803:AAEGkM-GSTRCyZl5_-udrqK2CPbNv6odu-A"  # Replace with your bot token
+TOKEN = "7886833410:AAGQtDRkDjsZYCVpoZWbTDj43oanKWq0QJs"  # Replace with your bot token
 OWNER_ID = (6667276878)  # Replace with your owner ID
 
 # Initialize the bot
